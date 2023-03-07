@@ -1,0 +1,96 @@
+body{background-color: black; color: azure;}
+
+
+.movie-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;;
+}
+
+.informacao-filme {
+  
+  z-index: 2;
+   width: 50%;
+  /*float: left; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+align-self: center; */
+}
+
+
+
+.search{
+  /* width: 700px;  */
+  width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+/* align-items: center; */
+display: flex;
+flex-direction: column;
+border-radius: 30px;
+}
+  .buttons{
+display: flex;
+gap: 15px;
+
+  }
+
+.buttons >button{display: flex;
+  color: aliceblue;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+  
+  width: 90px;
+  height: 52px;
+  
+  /* Blue Dark */
+  
+  background: #1E6F9F;
+  border-radius: 8px;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;}
+
+.titulo{
+  text-align: center;
+  width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+align-items: center;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+
+/* Blue */
+
+color: #4EA8DE;
+
+
+}
+
+.h1{
+  width: 700px; 
+    margin-left: auto;
+    margin-right: auto;
+align-items: center;
+
+}
+
+
+.juninho{
+width: 1000px;
+height: 15px; ;
+
+}
